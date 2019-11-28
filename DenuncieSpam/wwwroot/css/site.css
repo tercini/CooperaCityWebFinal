@@ -1,0 +1,169 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {    
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+.conteudoPrincipal{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.botoes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.campos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.enderecos, .carros, .dados {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-img-top{
+    height:300px;
+}
+
+.cartoes{
+    padding-bottom:20px;
+}
+
+.conteudoIndex {
+    text-align: center;
+}
+
+#imgReclamacao {
+    width: 100%;
+}
+
+#datRec {
+    word-wrap:break-word; 
+    table-layout:fixed; 
+    max-width:105px;
+    min-width:105px;
+}
+
+#telRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 145px;
+    min-width: 145px;
+}
+
+#emaRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#desRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#endRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+
+
+
+
+
+
+#datLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 105px;
+    min-width: 105px;
+}
+
+#telLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 145px;
+    min-width: 145px;
+}
+
+#emaLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#desLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#endLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 250px;
+    min-width: 200px;
+}
+
+#imgLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 150px;
+    
+}
+
+#opcLabRec {
+    word-wrap: break-word;
+    table-layout: fixed;
+    max-width: 200px;
+    min-width: 205px;
+}
+

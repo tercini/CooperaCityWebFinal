@@ -1,0 +1,28 @@
+﻿
+@model int
+@{
+    ViewData["Title"] = "Gerenciamento de erros";
+
+    var codigoErro = Model;
+    var mensagem = "";
+
+    switch (codigoErro)
+    {
+        case 404:
+            mensagem = "Página não encontrada";
+            break;
+
+        case 500:
+            mensagem = "Erro no servidor - O servidor não conseguiu completar a requisição";
+            break;
+
+        default:
+            mensagem = "Erro - Tente novamente mais tarde";
+            break;
+    }
+}
+
+<div class="jumbotron">
+    <h1>Erro @codigoErro</h1>
+    <h3>@mensagem</h3>
+</div>
